@@ -28,7 +28,7 @@ class Program
         int posRob = 0;
         int onComenca = 0;
         
-        while (robots.Count != 1)
+        while (robots.Count > 1)
         {
             int pitos = valors[onComenca];
             posRob = (posRob + pitos - 1) % robots.Count;
